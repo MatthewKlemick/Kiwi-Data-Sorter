@@ -70,11 +70,11 @@ while i == 0:
         print("this Sorting Mode was conpleted in ", endSSort , " ticks") # this prints the tick time stored 
     elif mode == "MSort":
         start = time.time()#this sets the tick time for the start of the algorithim
-        print("Bubble Sorted array is:")
+        print("Merge Sorted array is:")
         MSort(a,0,len(a)- 1)
         print(a)
         endMSort = time.time() - start #this takes the curent tick time and calculates how fast the algorithim is and stores it
-        print("this Sorting Mode was conpleted in ", endSSort , " ticks") # this prints the tick time stored 
+        print("this Sorting Mode was conpleted in ", endMSort , " ticks") # this prints the tick time stored 
     elif mode == "Times":
         print(" the last BSort finished with a time of ", endBSort, " Ticks" )
         print(" the last SSort finished with a time of ", endSSort, " Ticks" )
