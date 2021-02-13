@@ -11,6 +11,7 @@ def BSort(a):
         for f in range(0, c-v-1):
             if a[f] > a[f+1]:
                 a[f], a[f+1] = a[f+1], a[f]
+
 # start of selection sort algorithm code
 def SSort(a):
     for v in range(len(a)):
@@ -19,6 +20,15 @@ def SSort(a):
             if a[i] >  a[f]:
                 i = f
         a[v], a[i] = a[i], a[v]
+        f = f - 1
+#times in ticks without optomizasons
+#0.08875703811645508
+#0.06981492042541504
+#0.05685138702392578
+#times With optimizasons in ticks
+#0.033907413413482666016
+#0.028922080993652344
+#0.09073853492736816
 # start of  Merge sort algorithm code
 def MSort(a,L,R): 
     if L >= R:  
