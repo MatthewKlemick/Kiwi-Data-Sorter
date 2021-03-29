@@ -8,6 +8,6 @@ y = [1.57, 1.591, 1.604, 1.61, 1.644, 1.652, 1.663, 1.67, 1.675, 1.679, 1.689, 1
 p.plot(x,y)
 
 p.xlabel("kiwi Number")
-p.ylabel("kiwi weight")
+p.ylabel("kiwi Weight")
 
 p.show()
